@@ -35,12 +35,12 @@
     background-color: #99ffb4;
 }
 
-.child-1 {
+.child-1-1 {
     width: 55%;
     background-color: #99ffb4;
 }
 
-.child-2 {
+.child-1-2 {
     flex-grow: 1;
     background-color: #5bcefa;
 }
@@ -56,8 +56,23 @@
 }
 
 .content-4 {
+    display: flex;
     height: 14%;
+}
+
+.child-4-1 {
+    flex-grow: 1;
     background-color: #ff8686;
+}
+
+.child-4-2 {
+    flex-grow: 1;
+    background-color: #ebb7e9;
+}
+
+.child-4-3 {
+    flex-grow: 1;
+    background-color: #ecd8e1;
 }
 
 .content-5 {
